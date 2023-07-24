@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More Event Details add</title>
+  </head>
+  <body>
+    <section>
+      <h2 id="secretText">This is Secrite Information</h2>
+      <input type="text" id="inputField" placeholder="Pleace type delete " />
+      <button id="deleteButton" disabled>Delete</button>
+    </section>
+    <script>
+      const deleteBtn = document.getElementById("deleteButton");
+      document
+        .getElementById("inputField")
+        .addEventListener("keyup", function (event) {
+          const fieldValue = event.target.value;
+          if (fieldValue === "delete") {
+            deleteBtn.removeAttribute("disabled");
+            deleteBtn.addEventListener("click", function () {
+              const secretText = document.getElementById("secretText");
+              secretText.style.display = "none";
+            });
+          } else {
+            deleteBtn.setAttribute("disabled", true);
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event bubbling</title>
+  </head>
+  <body>
+    <section id="containerSection">
+      <h1>This is Bubling Section</h1>
+      <ul id="ulContainer">
+        <li id="item-1">tex-list-item-1</li>
+        <li id="item-2">tex-list-item-2</li>
+        <li id="item-3">tex-list-item-3</li>
+        <li id="item-4">tex-list-item-4</li>
+        <li id="item-5">tex-list-item-5</li>
+        <li id="item-6">tex-list-item-6</li>
+      </ul>
+    </section>
+    <script>
+      document
+        .getElementById("item-1")
+        .addEventListener("click", function (event) {
+          console.log("this is Item -1 Tigger");
+          //   event.stopPropagation();
+          event.stopImmediatePropagation();
+        });
+      document
+        .getElementById("item-1")
+        .addEventListener("click", function (event) {
+          console.log("this is Item -1 Tigger");
+          event.stopPropagation();
+        });
+      document
+        .getElementById("item-1")
+        .addEventListener("click", function (event) {
+          console.log("this is Item -1 Tigger");
+          event.stopPropagation();
+        });
+      document
+        .getElementById("ulContainer")
+        .addEventListener("click", function () {
+          console.log("You Clik UL Container");
+        });
+      document
+        .getElementById("containerSection")
+        .addEventListener("click", function () {
+          console.log("You Clik containerSection");
+        });
+    </script>
+  </body>
+</html>

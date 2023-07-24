@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegate</title>
+  </head>
+  <body>
+    <section>
+      <h1>List of Placess</h1>
+      <ul id="list_cntainer">
+        <li class="item">list item-1</li>
+        <li class="item">list item-2</li>
+        <li class="item">list item-3</li>
+        <li class="item">list item-4</li>
+        <li class="item">list item-5</li>
+      </ul>
+      <input type="text" id="addItemField" />
+      <button id="addButton" disabled>Add Item</button>
+    </section>
+    <script>
+      const items = document.getElementsByClassName("item");
+      const addItemField = document.getElementById("addItemField");
+      const listContainer = document.getElementById("list_cntainer");
+
+      //   for (const item of items) {
+      //     // item.addEventListener("click", function () {
+      //     //   item.parentNode.removeChild(item);
+      //     // });
+
+      //     item.addEventListener("click", function (event) {
+      //       //   event.target.parentNode.removeChild(event.target);
+      //       event.target.parentNode.removeChild(item);
+      //     });
+      //   }
+
+      listContainer.addEventListener("click", function (event) {
+        // parent a kono action dile seta delegate kore child a chole ase
+        event.target.parentNode.removeChild(event.target);
+      });
+      const addButton = document.getElementById("addButton");
+
+      addItemField.addEventListener("keyup", function (event) {
+        const addItemValue = event.target.value;
+        console.log(addItemValue);
+        if (addItemValue) {
+          addButton.removeAttribute("disabled");
+        } else {
+          addButton.setAttribute("disabled", true);
+        }
+      });
+      addButton.addEventListener("click", function () {
+        const addItemValue = document.getElementById("addItemField").value;
+        const li = document.createElement("li");
+        li.innerText = addItemValue;
+        listContainer.appendChild(li);
+        document.getElementById("addItemField").value = "";
+      });
+    </script>
+  </body>
+</html>

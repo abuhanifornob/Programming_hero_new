@@ -21,7 +21,19 @@ document.getElementById("addBtn").addEventListener("click", function () {
   for (let btn of deleteBtnList) {
     btn.addEventListener("click", function (event) {
       console.log(event.target);
+      number--;
       event.target.parentNode.parentNode.style.display = "none";
     });
   }
+  const doneBtnList = document.getElementsByClassName("done");
+  for (let btn of doneBtnList) {
+    btn.addEventListener("click", function (event) {
+      event.target.parentNode.parentNode.classList = "line-through";
+      //   event.target.parentNode.parentNode.classList = "disabled";
+    });
+  }
+});
+
+document.getElementById("clearBtn").addEventListener("click", function (event) {
+  document.getElementById("tableBody").style.display = "none";
 });

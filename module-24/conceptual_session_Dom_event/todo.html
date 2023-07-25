@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="w-full mx-20 mt-15">
+      <h1 class="text-center text-4xl font-bold mb-4">To Do Application</h1>
+      <div class="mb-4">
+        <input
+          id="todoItem"
+          type="text"
+          placeholder="Type here"
+          class="input input-bordered w-10/12 text-xl"
+        />
+        <button id="addBtn" class="btn btn-primary">Add Item</button>
+      </div>
+      <div>
+        <div class="overflow-x-auto">
+          <table class="table">
+            <!-- head -->
+            <thead class="text-2xl font-bold text-black">
+              <tr>
+                <th>Number</th>
+                <th>Description</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- row 1 -->
+              <!-- <tr class="">
+                <th>1</th>
+                <td>Quality Control Specialist</td>
+                <td>
+                  <button class="btn btn-primary delete">Delete</button>
+                  <button class="btn btn-success done">Done</button>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>

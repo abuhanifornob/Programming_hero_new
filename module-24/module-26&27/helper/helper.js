@@ -5,7 +5,6 @@ function getInputFieldValue(inputFiled) {
 }
 function getTextFieldValue(textFiled) {
   const textElement = document.getElementById(textFiled);
-
   const textVlaue = textElement.innerText;
 
   return textVlaue;

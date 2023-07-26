@@ -8,7 +8,7 @@ document
     const newTotalDepositAmount = depositAmount + previousTotalDepositAmount;
     setTextFieldValue("total-deposit", newTotalDepositAmount);
     // set total Balance Amount
-    const previousTotalBalance = parseFloat(getTextFieldValue("total-balance")); //
+    const previousTotalBalance = parseFloat(getTextFieldValue("total-balance"));
     console.log(previousTotalBalance);
     const newTotalBalance = depositAmount + previousTotalBalance;
     setTextFieldValue("total-balance", newTotalBalance);

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex justify-center items-center min-h-screen">
+      <div class="bg-white p-8 rounded shadow-md w-80">
+        <div class="mb-4">
+          <input
+            type="text"
+            id="display"
+            class="w-full px-4 py-2 border rounded"
+            readonly
+          />
+        </div>
+        <div class="grid grid-cols-4 gap-4">
+          <button
+            class="col-span-2 bg-gray-200 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="clearDisplay()"
+          >
+            C
+          </button>
+          <button
+            class="bg-gray-200 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="deleteLastCharacter()"
+          >
+            &larr;
+          </button>
+          <button
+            class="bg-gray-200 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('^')"
+          >
+            ^
+          </button>
+
+          <!-- Buttons for numbers -->
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('7')"
+          >
+            7
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('8')"
+          >
+            8
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('9')"
+          >
+            9
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('/')"
+          >
+            /
+          </button>
+
+          <!-- Buttons for operations -->
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('4')"
+          >
+            4
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('5')"
+          >
+            5
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('6')"
+          >
+            6
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('*')"
+          >
+            *
+          </button>
+
+          <!-- Buttons for more operations -->
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('1')"
+          >
+            1
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('2')"
+          >
+            2
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('3')"
+          >
+            3
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('-')"
+          >
+            -
+          </button>
+
+          <!-- Buttons for decimal and more operations -->
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('.')"
+          >
+            .
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('0')"
+          >
+            0
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('Math.sqrt(')"
+          >
+            √
+          </button>
+          <button
+            class="bg-gray-300 text-gray-700 font-bold px-4 py-2 rounded"
+            onclick="appendCharacter('+')"
+          >
+            +
+          </button>
+          <button
+            class="bg-yellow-500 text-white font-bold px-4 py-2 rounded col-span-2"
+            onclick="evaluate()"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -18,8 +18,10 @@ function deleteLastCharacter() {
 
 // Function to evaluate the expression and display the result
 function evaluate() {
+  console.log("equal btn add");
   try {
     const display = document.getElementById("display");
+
     const result = eval(display.value); // Using eval() for simplicity (be cautious in production)
     display.value = result;
   } catch (error) {

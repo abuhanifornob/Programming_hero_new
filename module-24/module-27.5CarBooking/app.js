@@ -77,6 +77,7 @@ function display(object) {
 
 objectDisply(objectarry);
 
+// modal information details...........................
 function modalInformation(object) {
   const stringyfyObject = JSON.stringify(object);
   const modalElement = document.getElementById("modal-data");
@@ -121,6 +122,8 @@ function modalInformation(object) {
 
   modalElement.appendChild(div);
 }
+
+// fare calculation.......................
 
 function fareCalulation(object) {
   const kilometers = document.getElementById("kilometers").value;

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Selected 5 Players</title>
+  </head>
+  <body class="bg-neutral-800">
+    <header>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-teal-600">
+        <div class="flex justify-start ms-0 ps-0">
+          <img
+            src="images/Shakib.png"
+            alt=""
+            srcset=""
+            class="w-50 h-50 -ms-28"
+          />
+        </div>
+
+        <div class="pt-20">
+          <h1 class="text-5xl font-bold text-yellow-500 mb-4">
+            Select Your Best Five
+          </h1>
+          <p class="text-2xl font-bold">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            eius ratione quisquam atque aperiam placeat inventore corrupti fuga
+          </p>
+        </div>
+        <div>
+          <img
+            src="images/Bangladesh_Cricket_Board.png"
+            alt=""
+            srcset=""
+            class="w-48 h-48 pt-20 ms-32"
+          />
+        </div>
+      </div>
+    </header>
+    <section class="w-10/12 mx-auto mt-14">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/mash.jpg"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Masrafi Bin Mortoza</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 3000</p>
+                  <p>Wicket: 350</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/hasan-mahmud.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Hasan Mahmud</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 30</p>
+                  <p>Wicket: 50</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/Musfique.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Musfiqure Rahim</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 300</p>
+                  <p>Rans:15000</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/mustafizur-rahman.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Mustafizur Rahman</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 100</p>
+                  <p>Wicket:160</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/Shakib.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Shakib Al Hasan</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 320</p>
+                  <p>Wicket: 352</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/Tamim-Iqbal.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Tamim Iqbal </h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 315</p>
+                  <p>Rans: 16200</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-full bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/Taskin-Ahmed.png"
+                  alt="Shoes"
+                  class="rounded-xl w-full h-40"
+                />
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="text-center">Taskin Ahmed</h2>
+                <div class="flex flex-row gap-3">
+                  <p>Match: 200</p>
+                  <p>Wicket: 230</p>
+                </div>
+                <div class="">
+                  <button
+                    onclick="selectPlayer(this)"
+                    class="btn btn-primary w-full h-auto"
+                  >
+                    Selected
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="font-weight-bold text-white mx-auto">
+          <h1 class="text-5xl font-extralight font-weight-bold mb-4 border-b-3">Selecter- V</h1>
+          <div>
+            <ol id="selectedPlayerList" class="list-decimal pl-6">
+                
+              </ol>
+            </div>
+            <div class="text-white mt-24">
+                <h1 class="text-5xl text-center font-extrabold text-indigo-700">Budget</h1>
+                <div class="mt-4">
+                    <div class="flex flex-row">
+                        <label for="budget" class="text-2xl font-bold me-3 flex w-1/2 ">Per Player</label>
+                    <input class="text-2xl px-4 py-2 rounded-lg mb-4 w-full flex w-1/2 text-neutral-950" type="text" name="budget" id="budget">
+                    </div>
+                    
+    
+                    <button class="w-full mx-auto btn btn-primary" id="playerCaostCalculaton">Calculate</button>
+                </div>
+               
+                <h3 class="text-2xl font-bold my-4">Player Expences: <span class="ms-10">$</span><span class="" id="playerCost">0</span></h3>
+                <div class="flex flex-row">
+                    <label class="text-2xl font-bold me-3 flex w-1/2">Manager</label>
+                    <input class="text-2xl px-4 py-2 rounded-lg mb-4 w-full flex w-1/2 text-neutral-950" type="text" name="manager" id="manager">
+                </div>
+                <div class="flex flex-row">
+                    <label class="text-2xl font-bold me-3 flex w-1/2">Coach</label>
+                    <input class="text-2xl px-4 py-2 rounded-lg mb-4 w-full flex w-1/2 text-neutral-950" type="text" name="coach" id="coach">
+                </div>
+              
+               <button class="w-full mx-auto btn btn-primary" id="totalCalculation">Calculation Total</button>
+                <h3 class="mt-4 text-2xl font-bold">Total : <span class="ms-32">$</span><span id="total">0</span></h3>
+              </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+    <script src="helper.js"></script>
+    <script src="app.js"></script>
+   
+  </body>
+</html>

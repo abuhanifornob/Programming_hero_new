@@ -126,6 +126,7 @@ const nestedObject = {
 };
 
 // ১২. উপরের অবজেক্ট এ ডট এর আগে যে প্রশ্নবোধক চিহ্ন দিয়ে যে অপশনাল চেইনিং করা যায়। সেটা একটু প্রাকটিস করো।
+
 const element = nestedObject?.address?.street;
 for (let i of element) {
   console.log(i);

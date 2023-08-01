@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Show Product With Menu Item</title>
+  </head>
+  <body class="p-10">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a
+            class="btn btn-ghost normal-case text-xl text-blue-800 font-extrabold"
+            >KAHT Fashions</a
+          >
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control flex">
+            <input
+              id="inputFieldId"
+              type="text"
+              placeholder="Search"
+              class="input input-bordered w-24 md:w-auto"
+            />
+          </div>
+          <button class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="flex">
+        <div class="flex-none">
+          <ul id="product_catagory" class="menu bg-success rounded-box"></ul>
+        </div>
+        <div class="grow">
+          <progress id="loading" class="progress w-full hidden"></progress>
+          <h1 id="notFound" class="text-3xl text-bold text-center hidden">
+            Data Not Found
+          </h1>
+          <div
+            id="product_card_section"
+            class="grid grid-cols-2 md:grid-cols-3 gap-4"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Open the modal using ID.showModal() method -->
+
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <form method="dialog" class="modal-box">
+          <h3 class="font-bold text-lg">Hello!</h3>
+          <p class="py-4">Press ESC key or click the button below to close</p>
+          <div class="modal-action">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Close</button>
+          </div>
+        </form>
+      </dialog>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

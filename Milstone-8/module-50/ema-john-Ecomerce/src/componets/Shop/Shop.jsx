@@ -12,6 +12,23 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
+
+  useEffect(() => {
+    const storedProduct = getShoppingCart();
+    let saveLocalStorageToCartProducts = [];
+    console.log(storedProduct);
+    for (const id in storedProduct) {
+      const addProduct = products.find((product) => product.id === id);
+      console.log(addProduct);
+      if (addProduct) {
+        const quentity = storedProduct[id];
+        addProduct.quantity = quentity;
+        saveLocalStorageToCartProducts.push(addProduct);
+      }
+    }
+    setcartProduct(saveLocalStorageToCartProducts);
+  }, [products]);
+
   const addTocart = (productItem) => {
     let saveToCartProduct = [];
     // const exist = dbCartProducts.find((prod) => prod === productItem.id);
@@ -27,7 +44,6 @@ const Shop = () => {
     }
 
     setcartProduct(saveToCartProduct);
-
     addToDb(productItem.id);
   };
   return (

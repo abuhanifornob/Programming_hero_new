@@ -1,0 +1,16 @@
+.header-container {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo-image {
+  width: 140px;
+  margin-left: 20px;
+}
+
+.header-nav a {
+  margin-left: 20px;
+  color: wheat;
+}

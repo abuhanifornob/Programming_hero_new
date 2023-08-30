@@ -1,0 +1,42 @@
+.cart-image {
+  height: 301px;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.product-cart {
+  position: relative;
+  height: 500px;
+  border: 2px solid rgb(253, 182, 169);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+.production-info {
+  margin-left: 25px;
+  padding: 5px;
+}
+.name {
+  margin: 0;
+}
+.pric {
+  margin: 0;
+}
+.seller {
+  margin: 0;
+}
+.rating {
+  margin: 0;
+}
+.car-button {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: tomato;
+}
+.car-button:hover {
+  background-color: darkorange;
+}
+.font-icons {
+  margin-left: 20px;
+}

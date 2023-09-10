@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://www.techsolutiongroups.com/wp-content/uploads/2020/06/logotipo.png",
+    "jobTitle": "Software Developer",
+    "companyName": "Tech Solutions Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$80,000 - $100,000 per year",
+    "jobDescription": "Tech Solutions Inc. is seeking a talented Software Developer to join our innovative team. In this role, you will design, develop, and maintain high-quality software applications. You'll work collaboratively with cross-functional teams to deliver cutting-edge solutions to our clients.",
+    "jobResponsibility": [
+      "Write clean, efficient, and maintainable code.",
+      "Collaborate with product managers to define software requirements.",
+      "Participate in code reviews to ensure code quality.",
+      "Troubleshoot and debug software defects.",
+      "Contribute to technical documentation.",
+      "Stay updated on industry trends and emerging technologies.",
+      "Work on multiple projects simultaneously.",
+      "Meet project deadlines and milestones.",
+      "Provide technical support to clients when needed.",
+      "Mentor junior developers."
+    ],
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "2+ years of software development experience",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@techsolutions.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://example.com/company2-logo.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Creative Designs Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$60,000 - $75,000 per year",
+    "jobDescription": "Join the Creative Designs Co. team as a Graphic Designer and unleash your creative talents. As a Graphic Designer, you'll be responsible for creating visually appealing designs for both print and digital media. Your work will play a key role in shaping our brand identity and captivating our audience.",
+    "jobResponsibility": [
+      "Create eye-catching graphics for marketing materials.",
+      "Design layouts for brochures, flyers, and advertisements.",
+      "Collaborate with marketing teams to understand design requirements.",
+      "Incorporate feedback and revisions into designs.",
+      "Stay updated with design trends and software tools.",
+      "Prepare and optimize files for printing.",
+      "Maintain brand consistency across all design projects.",
+      "Manage multiple design projects simultaneously.",
+      "Present design concepts to team and clients.",
+      "Assist in photo editing and retouching."
+    ],
+    "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+    "experiences": "3+ years of graphic design experience",
+    "contactInformation": {
+      "phone": "555-123-4567",
+      "email": "jobs@creativedesigns.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://example.com/company3-logo.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Data Insights Ltd.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$45,000 - $55,000 per year (Pro-Rated)",
+    "jobDescription": "Data Insights Ltd. is looking for a Data Analyst to join our data-driven team. As a Data Analyst, you'll play a crucial role in analyzing and interpreting data to support business decision-making.",
+    "jobResponsibility": [
+      "Collect and analyze data from various sources.",
+      "Identify data trends and patterns.",
+      "Prepare and present data reports to stakeholders.",
+      "Develop and maintain data visualizations.",
+      "Collaborate with data engineers to ensure data integrity.",
+      "Create and maintain data documentation.",
+      "Stay updated on data analysis techniques and tools.",
+      "Assist in database maintenance and optimization.",
+      "Work with cross-functional teams on data-related projects.",
+      "Provide data-driven insights to support business strategies."
+    ],
+    "educationalRequirements": "Bachelor's degree in Data Science, Statistics, or related field",
+    "experiences": "1+ years of data analysis experience",
+    "contactInformation": {
+      "phone": "800-123-4567",
+      "email": "careers@datainsights.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://example.com/company4-logo.png",
+    "jobTitle": "Project Manager",
+    "companyName": "Project Management Experts",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$90,000 - $110,000 per year",
+    "jobDescription": "Project Management Experts is seeking a skilled Project Manager to lead and oversee successful projects from initiation to closure. In this role, you'll collaborate with cross-functional teams to deliver projects on time and within budget.",
+    "jobResponsibility": [
+      "Plan and execute projects according to defined scope and objectives.",
+      "Create and manage project schedules and budgets.",
+      "Identify project risks and develop risk mitigation strategies.",
+      "Lead project teams and facilitate team meetings.",
+      "Communicate project status to stakeholders.",
+      "Ensure project deliverables meet quality standards.",
+      "Manage project documentation and reporting.",
+      "Track project expenses and resources.",
+      "Implement project management best practices.",
+      "Mentor and coach project team members."
+    ],
+    "educationalRequirements": "Bachelor's degree in Business or related field",
+    "experiences": "5+ years of project management experience",
+    "contactInformation": {
+      "phone": "312-555-7890",
+      "email": "pm@pmexperts.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://example.com/company5-logo.png",
+    "jobTitle": "Marketing Specialist",
+    "companyName": "Marketing Pro Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$70,000 - $85,000 per year",
+    "jobDescription": "Marketing Pro Inc. is seeking a creative Marketing Specialist to join our marketing team. In this role, you'll be responsible for developing and executing marketing strategies to promote our products and services.",
+    "jobResponsibility": [
+      "Create and manage marketing campaigns.",
+      "Analyze market trends and customer behavior.",
+      "Develop and implement digital marketing strategies.",
+      "Collaborate with creative teams on content creation.",
+      "Monitor and report on the performance of marketing campaigns.",
+      "Manage social media accounts and engage with followers.",
+      "Identify opportunities for brand promotion.",
+      "Conduct market research and competitor analysis.",
+      "Prepare marketing materials and collateral.",
+      "Assist in organizing and attending marketing events."
+    ],
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "3+ years of marketing experience",
+    "contactInformation": {
+      "phone": "800-987-6543",
+      "email": "careers@marketingpro.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "https://example.com/company6-logo.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Design Innovations Ltd.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$75,000 - $90,000 per year",
+    "jobDescription": "Design Innovations Ltd. is looking for a talented UI/UX Designer to join our design team. As a UI/UX Designer, you'll be responsible for creating user-friendly and visually appealing interfaces for our digital products.",
+    "jobResponsibility": [
+      "Design wireframes and prototypes for web and mobile applications.",
+      "Collaborate with developers to implement user interfaces.",
+      "Conduct user research and usability testing.",
+      "Create user personas and user journey maps.",
+      "Ensure a consistent and intuitive user experience across products.",
+      "Iterate on designs based on user feedback.",
+      "Stay updated on design trends and best practices.",
+      "Work closely with cross-functional teams on design projects.",
+      "Create and maintain design documentation.",
+      "Present design concepts to stakeholders."
+    ],
+    "educationalRequirements": "Bachelor's degree in Design or related field",
+    "experiences": "4+ years of UI/UX design experience",
+    "contactInformation": {
+      "phone": "123-789-4560",
+      "email": "uiux@designinnovations.com"
+    }
+  },
+  {
+    "id": 7,
+    "companyLogo": "https://example.com/company7-logo.png",
+    "jobTitle": "Customer Support Specialist",
+    "companyName": "Support Solutions Inc.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$55,000 - $65,000 per year",
+    "jobDescription": "Join Support Solutions Inc. as a Customer Support Specialist and provide exceptional customer service to our clients. In this role, you'll be the first point of contact for customer inquiries and will assist in resolving their issues effectively and efficiently.",
+    "jobResponsibility": [
+      "Answer customer inquiries via phone, email, and chat.",
+      "Provide information and assistance to customers regarding products and services.",
+      "Troubleshoot and resolve customer issues and complaints.",
+      "Escalate complex issues to higher levels of support as needed.",
+      "Maintain accurate records of customer interactions and transactions.",
+      "Ensure customer satisfaction through proactive communication.",
+      "Stay knowledgeable about company products and services.",
+      "Identify opportunities for process improvement.",
+      "Follow company policies and procedures.",
+      "Assist in training new customer support team members."
+    ],
+    "educationalRequirements": "High school diploma or equivalent",
+    "experiences": "1+ years of customer support experience",
+    "contactInformation": {
+      "phone": "415-123-4567",
+      "email": "support@supportsolutions.com"
+    }
+  },
+  {
+    "id": 8,
+    "companyLogo": "https://example.com/company8-logo.png",
+    "jobTitle": "Accountant",
+    "companyName": "Financial Services Ltd.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$65,000 - $80,000 per year",
+    "jobDescription": "Financial Services Ltd. is looking for an experienced Accountant to join our team. In this role, you will manage financial records, prepare financial statements, and ensure compliance with accounting standards.",
+    "jobResponsibility": [
+      "Prepare and maintain financial records and ledgers.",
+      "Analyze financial data and prepare financial statements.",
+      "Reconcile accounts and resolve discrepancies.",
+      "Assist in budgeting and forecasting.",
+      "Ensure compliance with accounting standards and regulations.",
+      "Prepare tax returns and handle tax-related matters.",
+      "Generate financial reports for management.",
+      "Manage accounts payable and receivable.",
+      "Assist in financial audits and provide documentation.",
+      "Stay updated on accounting principles and regulations."
+    ],
+    "educationalRequirements": "Bachelor's degree in Accounting or related field",
+    "experiences": "3+ years of accounting experience",
+    "contactInformation": {
+      "phone": "800-555-1234",
+      "email": "accounting@financialservices.com"
+    }
+  },
+  {
+    "id": 9,
+    "companyLogo": "https://example.com/company9-logo.png",
+    "jobTitle": "HR Manager",
+    "companyName": "HR Solutions Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Global",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$70,000 - $90,000 per year",
+    "jobDescription": "HR Solutions Inc. is looking for an experienced HR Manager to lead our human resources activities. In this role, you'll develop HR strategies, oversee recruitment, and support employee relations.",
+    "jobResponsibility": [
+      "Develop and implement HR strategies and policies.",
+      "Lead the recruitment and onboarding process.",
+      "Manage employee relations and resolve issues.",
+      "Conduct performance evaluations and feedback sessions.",
+      "Implement training and development programs.",
+      "Ensure compliance with labor laws and regulations.",
+      "Handle employee benefits and compensation.",
+      "Maintain employee records and documentation.",
+      "Provide guidance on HR-related matters to employees and management.",
+      "Stay updated on HR trends and best practices."
+    ],
+    "educationalRequirements": "Bachelor's degree in HR Management or related field",
+    "experiences": "5+ years of HR management experience",
+    "contactInformation": {
+      "phone": "800-789-5678",
+      "email": "hrmanager@hrsolutions.com"
+    }
+  },
+  {
+    "id": 10,
+    "companyLogo": "https://example.com/company10-logo.png",
+    "jobTitle": "Sales Representative",
+    "companyName": "Sales Solutions Corp.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrPartTime": "Full-Time",
+    "salary": "$60,000 - $75,000 per year",
+    "jobDescription": "Sales Solutions Corp. is seeking motivated Sales Representatives to join our dynamic sales team. As a Sales Representative, you will identify potential leads, present our products, and close deals to drive sales growth.",
+    "jobResponsibility": [
+      "Identify and target potential leads and prospects.",
+      "Present and demonstrate company products and services to customers.",
+      "Understand customer needs and provide tailored solutions.",
+      "Negotiate and close sales deals to meet targets.",
+      "Maintain and expand relationships with existing customers.",
+      "Achieve and exceed sales quotas and goals.",
+      "Prepare and deliver sales proposals and presentations.",
+      "Follow up on sales inquiries and leads.",
+      "Provide exceptional customer service and support.",
+      "Stay updated on industry trends and product knowledge."
+    ],
+    "educationalRequirements": "Bachelor's degree in Business or related field",
+    "experiences": "2+ years of sales experience",
+    "contactInformation": {
+      "phone": "213-555-9876",
+      "email": "sales@salessolutions.com"
+    }
+  }
+]

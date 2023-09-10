@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12",
+    "price": 799.99,
+    "brand": "Apple",
+    "model": "12",
+    "features": [
+      "A14 Bionic chip",
+      "6.1-inch Super Retina XDR display",
+      "Dual-camera system",
+      "Face ID",
+      "5G capable",
+      "iOS 14",
+      "Ceramic Shield front cover",
+      "Water and dust resistance (IP68)",
+      "MagSafe technology",
+      "Wireless charging"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "price": 899.99,
+    "brand": "Samsung",
+    "model": "S21",
+    "features": [
+      "Exynos 2100/Snapdragon 888 chipset",
+      "6.2-inch Dynamic AMOLED 2X display",
+      "Triple-camera system",
+      "In-display fingerprint sensor",
+      "5G capable",
+      "One UI 3.1",
+      "Corning Gorilla Glass Victus",
+      "Water and dust resistance (IP68)",
+      "Wireless DeX",
+      "Fast charging"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6",
+    "price": 699.99,
+    "brand": "Google",
+    "model": "6",
+    "features": [
+      "Google Tensor chip",
+      "6.4-inch OLED display",
+      "Dual-camera system",
+      "Face unlock",
+      "5G capable",
+      "Android 12",
+      "Corning Gorilla Glass Victus",
+      "Water and dust resistance (IP68)",
+      "Google Assistant",
+      "Fast charging"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9",
+    "price": 699.99,
+    "brand": "OnePlus",
+    "model": "9",
+    "features": [
+      "Snapdragon 888 chipset",
+      "6.55-inch Fluid AMOLED display",
+      "Triple-camera system",
+      "In-display fingerprint sensor",
+      "5G capable",
+      "OxygenOS 11",
+      "Corning Gorilla Glass 5",
+      "Water and dust resistance (IP68)",
+      "Warp Charge 65T",
+      "90Hz refresh rate"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11",
+    "price": 699.99,
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "features": [
+      "Snapdragon 888 chipset",
+      "6.81-inch AMOLED display",
+      "Triple-camera system",
+      "In-display fingerprint sensor",
+      "5G capable",
+      "MIUI 12",
+      "Corning Gorilla Glass Victus",
+      "Water and dust resistance (IP68)",
+      "120W fast charging",
+      "120Hz refresh rate"
+    ]
+  }
+]

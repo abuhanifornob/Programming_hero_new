@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import logo from "../../assets/logo/carrearN.png";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../context/AuthProvider";
+import toast from "react-hot-toast";
+import default_user from "../../assets/default_user.jpg";
 const Header = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut().then(() => {
+      toast.success("User Logout Success!!!");
+    });
+  };
   return (
     <header className="text-gray-600 body-font ">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -23,20 +33,44 @@ const Header = () => {
             Blog
           </Link>
         </nav>
-        <button className="inline-flex items-center bg-amber-600 border-0 py-3 px-4 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Start Applying
-          <svg
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
+        <div className="flex gap-2">
+          {user ? (
+            <>
+              <button onClick={handleLogOut} className="">
+                Log Out
+              </button>
+              <img
+                className="rounded-full w-14 h-14"
+                src={user.photoURL ? user.photoURL : default_user}
+                alt=""
+              />
+            </>
+          ) : (
+            <div className="flex items-center">
+              <Link className="mr-5 hover:text-gray-900" to="/signin">
+                Sign In
+              </Link>
+              <Link className="mr-5 hover:text-gray-900" to="/signup">
+                Sign Up
+              </Link>
+            </div>
+          )}
+
+          <button className="inline-flex items-center bg-amber-600 border-0 py-3 px-4 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            Start Applying
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
   );
